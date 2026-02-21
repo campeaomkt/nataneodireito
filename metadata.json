@@ -1,0 +1,7 @@
+{
+  "name": "Base Jurídica Premium",
+  "description": "Uma página de vendas de alta conversão para o curso 'A Base do Direito', focada em calouros e alunos que trabalham, com integração de IA para esclarecer dúvidas jurídicas iniciais.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
