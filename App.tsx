@@ -38,7 +38,7 @@ const Hero = () => (
       </h1>
       
       <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-        Não seja o calouro que fica perdido no "juridiquês". Domine os fundamentos, ganhe segurança e entenda a lógica do Direito de forma <span className="text-white font-medium">clara, direta e profissional.</span>
+        Não seja o calouro que investe de R$ 2.000,00 à R$ 3.000,00 na mensalidade da faculdade de Direito e ainda fica perdido no curso. Valorize seu investimento e domine os fundamentos do Direito de forma <span className="text-white font-medium">clara, direta e simplificada.</span>
       </p>
 
       {/* Video Section - Fixed with nocookie and better parameters */}
@@ -54,18 +54,14 @@ const Hero = () => (
         ></iframe>
       </div>
       
-      <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-        <a href="#oferta" className="w-full sm:w-auto bg-gold-btn text-black px-12 py-6 rounded text-lg font-black uppercase tracking-tight shadow-2xl hover:scale-105 transition-all active:scale-95 text-center">
-          Quero Começar Preparado
-        </a>
-        <div className="flex -space-x-3">
-          {[1, 2, 3, 4].map(i => (
-            <img key={i} src={`https://i.pravatar.cc/100?u=${i}`} className="w-10 h-10 rounded-full border-2 border-slate-950" />
-          ))}
-          <div className="w-10 h-10 rounded-full bg-slate-800 border-2 border-slate-950 flex items-center justify-center text-[10px] font-bold text-slate-400">+2k</div>
-        </div>
-        <span className="text-slate-500 text-sm font-medium">Alunos já transformados</span>
-      </div>
+     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+  <a 
+    href="#oferta" 
+    className="w-full sm:w-auto bg-gold-btn text-black px-12 py-6 rounded text-lg font-black uppercase tracking-tight shadow-2xl hover:scale-105 transition-all active:scale-95 text-center"
+  >
+    Quero Começar Preparado
+  </a>
+</div>
     </div>
   </section>
 );
@@ -169,28 +165,25 @@ const ValueStack = () => (
         <p className="text-slate-500 text-sm md:text-lg uppercase tracking-[0.2em] font-medium">O que você está prestes a adquirir:</p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-8 mb-12 md:mb-16">
-        {[
-          { text: "Treinamento Base Jurídica Completo", desc: "Aulas direto ao ponto sobre as 8 matérias base." },
-          { text: "Manual Estratégico do Vade Mecum", desc: "Economize horas de estudo com consulta rápida." },
-          { text: "Comunidade Ouro de Networking", desc: "Conecte-se com quem compartilha o mesmo objetivo." },
-          { text: "Guia Master de Oratória Jurídica", desc: "Destaque-se em seminários e sustentações." },
-          { text: "Suporte Prioritário para Alunos", desc: "Dúvidas respondidas por monitores especializados." },
-          { text: "Certificado de Conclusão Premium", desc: "Válido para horas complementares na faculdade." },
-          { text: "Acesso Vitalício e Ilimitado", desc: "Consulte o material em qualquer semestre do curso." },
-          { text: "Garantia Incondicional de 7 Dias", desc: "Risco zero. Experimente e decida depois." }
-        ].map((item, i) => (
-          <div key={i} className="flex items-start gap-3 md:gap-4 text-slate-200">
-            <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-gold-400/10 flex items-center justify-center border border-gold-400/30 mt-1 flex-shrink-0">
-              <span className="text-gold-400 text-[10px] md:text-xs font-bold">✓</span>
-            </div>
-            <div>
-              <span className="text-base md:text-lg font-bold tracking-tight block">{item.text}</span>
-              <span className="text-xs md:text-sm text-slate-500 font-light">{item.desc}</span>
-            </div>
-          </div>
-        ))}
+     <div className="grid md:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-8 mb-12 md:mb-16">
+  {[
+    { text: "Treinamento Base Jurídica Completo", desc: "Aulas direto ao ponto sobre as 8 matérias base." },
+    { text: "Suporte Prioritário para Alunos", desc: "Dúvidas respondidas por monitores especializados." },
+    { text: "Acesso Vitalício e Ilimitado", desc: "Consulte o material em qualquer semestre do curso." },
+    { text: "Garantia Incondicional de 7 Dias", desc: "Risco zero. Experimente e decida depois." },
+    { text: "Bônus Exclusivos", desc: "Acesso a materiais exclusivos e atualizados." }
+  ].map((item, i) => (
+    <div key={i} className="flex items-start gap-3 md:gap-4 text-slate-200">
+      <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-gold-400/10 flex items-center justify-center border border-gold-400/30 mt-1 flex-shrink-0">
+        <span className="text-gold-400 text-[10px] md:text-xs font-bold">✓</span>
       </div>
+      <div>
+        <span className="text-base md:text-lg font-bold tracking-tight block">{item.text}</span>
+        <span className="text-xs md:text-sm text-slate-500 font-light">{item.desc}</span>
+      </div>
+    </div>
+  ))}
+</div>
 
       {/* Optimized Pricing Card matching the reference image */}
       <div className="bg-slate-950/90 p-8 md:p-12 rounded-[40px] border border-white/5 text-center shadow-2xl relative overflow-hidden">
@@ -295,7 +288,7 @@ const Bio = () => (
           <div className="absolute -inset-4 bg-gold-400 blur-3xl opacity-20 group-hover:opacity-30 transition"></div>
           <div className="w-72 h-96 rounded-2xl overflow-hidden relative z-10 border-2 border-gold-400/30">
             <img 
-              src="https://nataneodireito.com/wp-content/uploads/2026/02/natan-bio-scaled.jpeg" 
+              src="https://nataneodireito.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-24-at-15.52.13.jpeg" 
               alt="Natan Campos" 
               className="w-full h-full object-cover transition-all duration-300" 
             />
@@ -318,7 +311,7 @@ const Bio = () => (
               Nos últimos anos, desenvolvi uma estratégia prática que permite economizar tempo, evitar confusão e acelerar a evolução nos estudos, sem métodos complicados e sem perder meses estudando sozinho.
             </p>
             <p>
-              Hoje, ensino esse método passo a passo no meu ebook, ajudando qualquer pessoa a aprender os primeiros 6 meses da faculdade de Direito em apenas 7 dias.
+              Hoje, ensino esse método passo a passo no meu treinamento, ajudando qualquer pessoa a aprender os primeiros 6 meses da faculdade de Direito em apenas 7 dias.
             </p>
             <p>
               Se você sonha em começar a faculdade com vantagem e confiança, esse material foi feito para você.
