@@ -196,12 +196,12 @@ const ValueStack = () => (
           <span className="text-slate-400 text-3xl md:text-4xl font-light mb-4">12x de</span>
           <div className="flex flex-col items-center leading-tight">
              <span className="text-7xl md:text-8xl font-black text-white serif mb-1">R$</span>
-             <span className="text-[110px] md:text-[180px] font-black text-white serif tracking-tighter leading-none">14,26</span>
+             <span className="text-[110px] md:text-[180px] font-black text-white serif tracking-tighter leading-none">10,03</span>
           </div>
         </div>
         
         <p className="text-slate-400 text-xl md:text-2xl mb-12 max-w-xs mx-auto md:max-w-none leading-relaxed">
-          Ou apenas <span className="text-white font-bold">R$ 137,90 à vista</span> <br /> no PIX ou Cartão.
+          Ou apenas <span className="text-white font-bold">R$ 97,00 à vista</span> <br /> no PIX ou Cartão.
         </p>
         
         <div className="relative group max-w-md mx-auto mb-10">
